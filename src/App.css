@@ -1,0 +1,196 @@
+@font-face {
+  font-family:"roboto";
+  src: url(/src/fonts/Roboto-Regular.ttf);
+}
+header{
+  width: 1440px;
+  height: 132px;
+  margin: 0 auto;
+  display: flex ;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+.display{
+  display: flex;
+  gap: 16px;
+}
+h2{
+  font-size: 24px;
+  font-family: "roboto";
+}
+.display__flex{
+  width: 1336px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #e5e5e5;
+}
+.ul__s{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 44px;
+}
+.ul__s a{
+  text-decoration: none;
+  font-size: 16px;
+  color: #A29FB3;
+  font-family: "roboto";
+}
+.ul__s li{
+  list-style: none;
+}
+.big__div{
+  width:1280px;
+  height: 584px;
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 120px;
+}
+.left__side{
+  width: 720px;
+  height: 584px;
+  background-color: #2A254B;
+}
+h1{
+  color: #ffffff;
+  font-family: "roboto";
+  font-size: 32px;
+  margin: 0;
+}
+.right__side{
+  width: 520px;
+  height: 584px;
+}
+.button__main{
+  width: 170px;
+  height: 56px;
+  margin-top: 41px;
+  background-color: #494565;
+  border: none;
+  font-size: 16px;
+  color: #ffffff;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.button__main:hover{
+  background-color: #454351;
+}
+.main__p{
+  color: #ffffff;
+  font-size: 18px;
+  font-family: "roboto";
+  margin-top: 196px;
+}
+.pss{
+  margin-top: 60px;
+  margin-left: 60px;
+}
+h3{
+  width: 366px;
+  margin: 0 auto;
+  font-size: 24px;
+  font-family: "roboto";
+  margin-bottom: 51px;
+}
+section{
+  display: flex;
+  gap: 59px;
+  width: 1240px;
+  margin-left: -30px;
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 186px;
+}
+.p{
+  font-size: 20px;
+  font-family: "roboto";
+
+}
+.p__lar p{
+  font-size: 16px;
+  font-family: "roboto";
+}
+.section__2{
+  width: 1440px;
+  height: 561px;
+  display: flex;
+}
+.h2{
+  font-family: "roboto";
+  font-size: 32px;
+}
+.yozuv{
+  font-family: "roboto";
+  font-size: 20px;
+}
+.euro{
+  font-family: "roboto";
+  font-size: 20px;
+}
+.small__img{
+  width: 305px;
+  height: 375px;
+}
+.flex{
+  display: flex;
+  gap: 20px;
+}
+.button__small{
+  width: 170px;
+  height: 56px;
+  background-color: #F9F9F9;
+  color: 2A254B;
+  border:none;
+  margin-left: 555px;
+  margin-top: 35px;
+  font-size: 16px;
+  font-family: "roboto";
+  transition: 0.3s;
+  cursor: pointer;
+}
+.button__small:hover{
+  background-color: #a58282;
+}
+.large__img{
+  width: 630px;
+  height: 375px;
+}
+.section__3{
+  width: 1440px;
+  height: 561px;
+  display: flex;
+}
+.small_div{
+  width: 1273px;
+  height:364px;
+  margin: 0 auto;
+  text-align: center;
+}
+.join{
+  font-size: 36px;
+  font-family: "roboto";
+}
+.sign{
+  font-size: 24px;
+  font-family: "roboto";
+  margin-bottom: 72px;
+}
+input{
+    width: 354px;
+    height: 56px;
+    background-color: #F9F9F9;
+    border: none;
+}
+.signup{
+  width: 118px;
+  height: 56px;
+  margin-left: -4px;
+  color: #fff;
+  border: none;
+  background-color: #2A254B;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.signup:hover{
+  background-color: #676161;
+}
